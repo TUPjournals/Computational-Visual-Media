@@ -792,7 +792,6 @@ function generateBibTeX(a) {
     return parts.length >= 2 ? parts.slice(0,-1).join(' ') + ' ' + parts[parts.length - 1] : au.name;
   }).join(' and ');
   let bib = '@article{' + key + ', \r\n';
-  bib += '\r\n';
   bib += 'author = {' + authors_bib + '},\r\n';
   bib += 'title = {' + (a.title || '') + '},\r\n';
   bib += 'year = {' + year + '},\r\n';
@@ -801,10 +800,10 @@ function generateBibTeX(a) {
   if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
   if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
-  if (a.doi) bib += 'url = {https://www.doi.org/' + a.doi + '},\r\n';
+  if (a.doi) bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
   if (a.doi) bib += 'doi = {' + a.doi + '},\r\n';
   if (a.abstract) bib += 'abstract = {' + a.abstract + '},\r\n';
-  bib += '\r\n}';
+  bib += '}';
   return bib;
 }
 
