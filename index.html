@@ -802,7 +802,7 @@ function generateBibTeX(a) {
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
   if (a.doi) bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
   if (a.doi) bib += 'doi = {' + a.doi + '},\r\n';
-  if (a.abstract) bib += 'abstract = {' + a.abstract + '},\r\n';
+  if (a.abstract) bib += 'abstract = {' + a.abstract + '}\r\n';
   bib += '}';
   return bib;
 }
