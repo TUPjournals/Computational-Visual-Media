@@ -629,7 +629,7 @@ function render() {
       <div class="card-authors">${shortNames}</div>
       ${kws ? `<div class="card-keywords">${kws}</div>` : ''}
       ${(a.research_area||[]).length > 0 ? `<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>${a.research_area.map(ar => `<span class="kw" style="background:#fff3e0;color:#e65100;font-weight:600">${esc(ar)}</span>`).join(' ')}</div>` : ''}
-      ${a.doi ? `<div class="card-doi"><a href="https://www.sciopen.com/article/${a.doi}" target="_blank" onclick="event.stopPropagation()">https://www.sciopen.com/article/${esc(a.doi)}</a></div>` : ''}
+      ${a.doi ? `<div class="card-doi"><a href="https://www.doi.org/${a.doi}" target="_blank" onclick="event.stopPropagation()">https://www.doi.org/${esc(a.doi)}</a></div>` : ''}
       ${a.doi ? `
       <div class="card-cite" onclick="event.stopPropagation()">
         <span class="card-cite-text">${getCiteText(a)}</span>
@@ -646,7 +646,7 @@ function render() {
         </div>
         ${a.abstract ? `<div class="d-abstract"><strong>Abstract:</strong> ${highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery)}</div>` : ''}
         <div class="d-links">
-          ${a.doi ? `<a href="https://www.sciopen.com/article/${a.doi}" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>` : ''}
+          ${a.doi ? `<a href="https://www.doi.org/${a.doi}" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>` : ''}
           ${a.pdf ? `<a href="${a.pdf}" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>` : ''}
         </div>
       </div>
@@ -691,7 +691,7 @@ function getCiteText(a) {
   const title = (a.title || '').replace(/<[^>]+>/g, '');
   const volIssue = (a.volume || a.issue) ? `${a.volume||''}(${a.issue||''})` : '';
   const pages = (a.firstpage && a.lastpage) ? `${a.firstpage}-${a.lastpage}` : '';
-  const doiUrl = `https://www.sciopen.com/article/${a.doi || ''}`;
+  const doiUrl = `https://www.doi.org/${a.doi || ''}`;
   return `${authorStr}. ${title}. Computational Visual Media, ${year}, ${volIssue}: ${pages}. ${doiUrl}`;
 }
 
@@ -802,7 +802,7 @@ function generateBibTeX(a) {
   if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
   if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
-  if (a.doi) bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
+  if (a.doi) bib += 'url = {https://www.doi.org/' + a.doi + '},\r\n';
   if (a.doi) bib += 'doi = {' + a.doi + '},\r\n';
   if (a.abstract) bib += 'abstract = {' + a.abstract + '},\r\n';
   bib += '\r\n}';
