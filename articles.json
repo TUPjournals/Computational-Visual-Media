@@ -9490,63 +9490,6 @@
     ]
   },
   {
-    "doi": "10.1007/s41095-024-0398-z",
-    "title": "Erratum to: Dynamic ocean inverse modeling based on differentiable rendering",
-    "authors": [
-      {
-        "name": "Xueguang Xie"
-      },
-      {
-        "name": "Yang Gao"
-      },
-      {
-        "name": "Fei Hou"
-      },
-      {
-        "name": "Aimin Hao"
-      },
-      {
-        "name": "Hong Qin"
-      }
-    ],
-    "affiliations": [
-      "Qingdao Research Institute,CHINA. Beihang University, 100191,CHINA. State Key Lab of Virtual Reality Technology and Systems,CHINA. Beihang University, 100191,CHINA.",
-      "State Key Lab of Virtual Reality Technology and Systems,CHINA. Beihang University, 100191,CHINA.",
-      "SKLCS,CHINA. State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, 100190,CHINA.",
-      "Qingdao Research Institute,CHINA. Beihang University, 100191,CHINA. State Key Lab of Virtual Reality Technology and Systems,CHINA. Beihang University, 100191,CHINA.",
-      "Department of Computer Science,Stony Brook University, 11790"
-    ],
-    "keywords": [
-      "inverse modeling",
-      "surface reconstruction",
-      "wave modeling",
-      "ocean waves",
-      "differentiablerendering (DR)"
-    ],
-    "abstract": "",
-    "volume": 10,
-    "issue": 3,
-    "firstpage": "609",
-    "lastpage": "609",
-    "year": 2024,
-    "publication_date": "2024/6/5",
-    "online_date": "2024/3/22",
-    "received": "",
-    "revised": "",
-    "accepted": "",
-    "published": "",
-    "type": "Erratum",
-    "url": "https://www.sciopen.com/article/10.1007/s41095-024-0398-z",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s41095-024-0398-z.pdf",
-    "internal_id": "",
-    "publisher": "清华大学出版社",
-    "issn": "2096-0433",
-    "research_area": [
-      "Geometric computing for images and video",
-      "Realistic rendering"
-    ]
-  },
-  {
     "doi": "10.1007/s41095-023-0369-x",
     "title": "CF-DAN: Facial-expression recognition based on cross-fusion dual-attention network",
     "authors": [
