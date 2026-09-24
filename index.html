@@ -790,7 +790,7 @@ function generateBibTeX(a) {
   const key = first_author + year;
   const authors_bib = (a.authors||[]).map(au => {
     const parts = (au.name || '').trim().split(/\s+/);
-    return parts.length >= 2 ? parts[parts.length - 1] + ', ' + parts.slice(0,-1).join(' ') : au.name;
+    return parts.length >= 2 ? parts.slice(0,-1).join(' ') + ' ' + parts[parts.length - 1] : au.name;
   }).join(' and ');
   let bib = '@article{' + key + ', \r\n';
   bib += '\r\n';
