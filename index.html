@@ -800,7 +800,7 @@ function generateBibTeX(a) {
   if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
   if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
-  if (a.doi) bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
+  if (a.doi) bib += 'url = {https://doi.org/' + a.doi + '},\r\n';
   if (a.doi) bib += 'doi = {' + a.doi + '},\r\n';
   if (a.abstract) bib += 'abstract = {' + a.abstract + '}\r\n';
   bib += '}';
