@@ -1,5 +1,593 @@
 [
   {
+    "doi": "10.26599/CVM.2026.9450570",
+    "title": "Deep learning for geometric 3D point cloud enhancement: A survey",
+    "authors": [
+      {
+        "name": "Siwen Quan"
+      },
+      {
+        "name": "Junhao Yu"
+      },
+      {
+        "name": "Ziming Nie"
+      },
+      {
+        "name": "Muze Wang"
+      },
+      {
+        "name": "Sijia Feng"
+      },
+      {
+        "name": "Pei An"
+      },
+      {
+        "name": "Jiaqi Yang"
+      }
+    ],
+    "keywords": [
+      "deep learning",
+      "3D data",
+      "point clouds",
+      "enhancement",
+      "denoising",
+      "upsampling",
+      "occlusion"
+    ],
+    "abstract": "Point clouds are now a popular data representations in 3D vision research. However, due to the limited performance of sensors, the raw data usually suffer from sparsity, sensing noise, and incompleteness. This poses great challenges to downstream point cloud processing tasks. In recent years, deep-learning-based geometric point cloud enhancement methods are gaining tremendous research attention; they use deep neural networks with the aim of achieving dense, clean, and complete point clouds from low-quality raw point clouds. This paper presents a comprehensive survey of deep-learning-based geometric point cloud enhancement methods. It covers three main kinds of geometric point cloud enhancement: (ⅰ) denoising to achieve clean data, (ⅱ) completion to recover unseen data, and (ⅲ) upsampling to obtain dense data. Our survey presents a new taxonomy for recent state-of-the-art methods and systematic experimental results on standard benchmarks. In addition, we share our observations, and suggest future research directions for geometric point cloud enhancement with deep learning.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450570",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2026.9450570",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2026.9450570.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Understanding of visual media",
+      "Machine learning for visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2026.9450530",
+    "title": "Visual-language foundation models and artificial intelligence agents in healthcare: Bridging from technological innovation to clinical impact",
+    "authors": [
+      {
+        "name": "Abdulrhman Hussein Al-Jebrni"
+      },
+      {
+        "name": "Zehua Jiang"
+      },
+      {
+        "name": "Yiming Qin"
+      },
+      {
+        "name": "Yue Qiu"
+      },
+      {
+        "name": "Nan Jiang"
+      },
+      {
+        "name": "Guanqiao Li"
+      },
+      {
+        "name": "Yingfeng Zheng"
+      },
+      {
+        "name": "Tien Yin Wong"
+      },
+      {
+        "name": "Suhyeon Kim"
+      },
+      {
+        "name": "Younhyun Jung"
+      },
+      {
+        "name": "Dian Zeng"
+      },
+      {
+        "name": "Bin Sheng"
+      }
+    ],
+    "keywords": [
+      "visual-language foundation models (VLFMs)",
+      "multimodality",
+      "artificial intelligence agents",
+      "healthcare"
+    ],
+    "abstract": "Recent advances in foundation models (FMs) have enabled artificial intelligence systems to acquire generalizable capabilities, with language and visual models demonstrating adaptability across diverse healthcare applications and multimodal vision-language FMs (VLFMs) supporting complex tasks such as report generation and question answering. Building on these developments, autonomous agents, particularly vision-language agents (VLAs), represent the next frontier, extending AI from perception and recognition to cognition, decision-making, and action. By integrating multimodal understanding with planning, interaction, and tool use, VLAs introduce autonomous intelligence capable of managing multi-step clinical workflows, adapting over time, and collaborating with clinicians. This survey provides a comprehensive perspective on VLAs in healthcare. We examine their current progress, analyze the major challenges hindering their integration, and highlight promising directions for future development. Unlike prior surveys that primarily focus on diverse FMs, our work prioritizes emerging VLFMs and incorporates agentic concepts, emphasizing their transformative potential beyond narrow research prototypes. Specifically, we (ⅰ) evaluate VLAs in terms of VLFM architectures and adaptation strategies and agentic design, (ⅱ) assess their potential impact across diverse clinical workflows, and (ⅲ) discuss pathways towards next-generation clinical decision support, considering technical and clinical challenges.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450530",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2026.9450530",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2026.9450530.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Understanding of visual media",
+      "Machine learning for visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450526",
+    "title": "A survey of 3D reconstruction with event cameras",
+    "authors": [
+      {
+        "name": "Chuanzhi Xu"
+      },
+      {
+        "name": "Haoxian Zhou"
+      },
+      {
+        "name": "Langyi Chen"
+      },
+      {
+        "name": "Haodong Chen"
+      },
+      {
+        "name": "Zeke Zexi Hu"
+      },
+      {
+        "name": "Zhicheng Lu"
+      },
+      {
+        "name": "Ying Zhou"
+      },
+      {
+        "name": "Vera Chung"
+      },
+      {
+        "name": "Qiang Qu"
+      },
+      {
+        "name": "Weidong Cai"
+      }
+    ],
+    "keywords": [
+      "3D reconstruction",
+      "event camera",
+      "neuromorphic vision",
+      "event-based vision",
+      "neural radiance fields (NeRFs)",
+      "3D Gaussian splatting (3DGS)"
+    ],
+    "abstract": "Event cameras are rapidly emerging as powerful vision sensors for 3D reconstruction, uniquely capable of asynchronously capturing per-pixel brightness changes. Compared to traditional frame-based cameras, event cameras produce sparse yet temporally dense data streams, enabling robust and accurate 3D reconstruction even under challenging conditions such as high-speed motion, low illumination, and extreme dynamic range. These capabilities offer substantial promise for transformative applications in various fields, including autonomous driving, robotics, aerial navigation, and immersive virtual reality. This survey presents the first comprehensive review exclusively dedicated to event-based 3D reconstruction. Existing approaches are systematically categorized based on input modality as stereo, monocular, or multimodal systems, and further classified according to reconstruction methodologies, including geometry-based techniques, deep learning approaches, and neural rendering techniques such as neural radiance fields (NeRFs) and 3D Gaussian splatting (3DGS). Within each category, methods are chronologically organized to highlight the evolution of key concepts and advances. We also provide a detailed summary of publicly available datasets specifically suited to event-based reconstruction tasks. Finally, we discuss significant open challenges in dataset availability, standardized evaluation, effective representation, and dynamic scene reconstruction, suggesting directions for future research. This survey aims to serve as a reference and to provide a clear and motivating roadmap for advancing the state-of-the-art in event-driven 3D reconstruction.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450526",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450526",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450526.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Geometric computing for images and video",
+      "Machine learning for visual media",
+      "Understanding of visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450507",
+    "title": "<inline-formula id=\"M1\"> <math id=\"mathml_M1\" display=\"inline\" overflow=\"scroll\">  <mrow class=\"MJX-TeXAtom-ORD\">    <mi class=\"MJX-tex-caligraphic\" mathvariant=\"script\">Z</mi>  </mrow>  <mo>−</mo>  <msup>    <mrow class=\"MJX-TeXAtom-ORD\">      <mrow class=\"MJX-TeXAtom-ORD\">        <mi mathvariant=\"normal\">S</mi>        <mi mathvariant=\"normal\">T</mi>        <mi mathvariant=\"normal\">A</mi>        <mi mathvariant=\"normal\">R</mi>      </mrow>    </mrow>    <mo>+</mo>  </msup></math></inline-formula>: A zero-shot style transfer method adjusting style distribution",
+    "authors": [
+      {
+        "name": "Yingying Deng"
+      },
+      {
+        "name": "Xiangyu He"
+      },
+      {
+        "name": "Fan Tang"
+      },
+      {
+        "name": "Weiming Dong"
+      }
+    ],
+    "keywords": [
+      "diffusion model",
+      "zero-shot",
+      "style transfer",
+      "attention mechanism"
+    ],
+    "abstract": "Style transfer presents a significant challenge, primarily centered on identifying an appropriate style representation. Conventional methods employ style loss, derived from second-order statistics or contrastive learning, to constrain style representation in the stylized result. However, these pre-defined style representations often limit stylistic expression, leading to artifacts. In contrast to existing approaches, we have discovered that latent features in basic diffusion models inherently contain natural style and content distributions. This allows for direct extraction of style information and seamless integration of generative priors into the content image without the need for retraining. Our method adopts dual denoising paths to represent content and style references in the latent space, subsequently guiding the content image denoising process with style latent codes. We introduce a cross-attention reweighting module that utilizes local content features to query style image information best suited to the input patch, thereby aligning the style distribution of the stylized results with that of the style image. Furthermore, we have designed a scaled adaptive instance normalization approach to mitigate global inconsistencies in color distribution between style and stylized images. Through theoretical analysis and extensive experimentation, we demonstrate the effectiveness and superiority of Z − S T A R + , our diffusion-based zero-shot style transfer method using style distribution adjustment.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450507",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450507",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450507.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Understanding of visual media",
+      "Machine learning for visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450503",
+    "title": "Representative feature extraction during diffusion process for sketch extraction with one example",
+    "authors": [
+      {
+        "name": "Kwan Yun"
+      },
+      {
+        "name": "Youngseo Kim"
+      },
+      {
+        "name": "Kwanggyoon Seo"
+      },
+      {
+        "name": "Chang Wook Seo"
+      },
+      {
+        "name": "Junyong Noh"
+      }
+    ],
+    "keywords": [
+      "feature extraction",
+      "sketch extraction",
+      "personalized sketch generation",
+      "one-shot style adaptation"
+    ],
+    "abstract": "Sketching is both a fundamental artistic expression and a crucial aspect of art. The significance of sketching has increased alongside the development of sketch-based generative and editing models. To enable individuals to use sketch-based generative models effectively, personalizing sketch extraction is crucial. In response, we introduce DiffSketch, a novel method capable of generating various geometrically aligned sketches from text or images, using a single manual drawing for training the style. Our method exploits rich information available in features from a pretrained stable diffusion model to achieve effective domain adaptation. To further streamline the process of sketch extraction, we further refine our approach by distilling the knowledge from the trained generator into the image-to-sketch network, which is termed DiffSketch distilled . Through a series of comparisons, we verify that our method not only outperforms existing state-of-the-art sketch extraction methods but also surpasses diffusion-based stylization methods in the task of extracting sketches. See https://github.com/kwanyun/diffsketch.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450503",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450503",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450503.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Editing and generation of visual media",
+      "Machine learning for visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450500",
+    "title": "Neural video field editing",
+    "authors": [
+      {
+        "name": "Shuzhou Yang"
+      },
+      {
+        "name": "Chong Mou"
+      },
+      {
+        "name": "Jiwen Yu"
+      },
+      {
+        "name": "Yuhan Wang"
+      },
+      {
+        "name": "Xiandong Meng"
+      },
+      {
+        "name": "Jian Zhang"
+      }
+    ],
+    "keywords": [
+      "video editing",
+      "neural video fields (NVF)",
+      "text-to-image (T2I) models"
+    ],
+    "abstract": "Diffusion models have revolutionized text-driven video editing. However, applying these methods to real-world editing encounters two significant challenges: (ⅰ) the rapid increase in GPU memory demand as the number of frames grows, and (ⅱ) inconsistency between frames in edited videos. To address these issues, we propose NVEdit, a novel text-driven video editing framework designed to mitigate memory overhead and improve editing consistency for long real-world videos. Specifically, we construct a neural video field, based on tri-plane and sparse grid representations, to enable the encoding of videos with hundreds of frames in a memory-efficient manner. Next, we update the video field through off-the-shelf text-to-image (T2I) models to impart text-driven editing effects. A progressive optimization strategy is used to preserve original temporal priors. Importantly, both the neural video field and T2I model are adaptable and replaceable, thus providing a basis for future research. Experiments demonstrate the ability of our approach to edit hundreds of frames with strong inter-frame consistency. Our project is available at https://nvedit.github.io/.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450500",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450500",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450500.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Editing and generation of visual media",
+      "Machine learning for visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450483",
+    "title": "StyTips: Towards high-quality, efficient, and controllable style transfer via transformer filtering prompts",
+    "authors": [
+      {
+        "name": "Ying Hu"
+      },
+      {
+        "name": "Chenyi Zhuang"
+      },
+      {
+        "name": "Pan Gao"
+      },
+      {
+        "name": "Chuan Yan"
+      },
+      {
+        "name": "Jie Qin"
+      }
+    ],
+    "keywords": [
+      "style transfer",
+      "transformer",
+      "filtering prompts",
+      "controllability"
+    ],
+    "abstract": "Image style transfer aims to merge the artistic characteristics of a style image with the spatial structure of a content image, maintaining the content identity and showing the desired style. Previous works based on convolutional neural networks lack the ability to capture global features, leading to the content leakage issue. In this work, we propose a method StyTips, short for style via transformer filter prompts, a novel approach for style transfer that distills essential content and injects style information via learned prompts. To achieve efficient and high-quality stylization, we adopt a hierarchical vision transformer encoder to extract multi-scale features of the content and style images, learning disentangled style features of color and strokes. Inspired by the prompt learning technique, we have designed a fine-grained style alignment block in the decoder, consisting of a filter-using self-attention module to distill necessary content information and a style-aware cross-attention module to inject style features. StyTips takes full advantage of the attention mechanism to align color and strokes with the purified content features in appropriate proportions. Qualitative and quantitative experiments demonstrate that StyTips can prevent content leakage and generate high-quality stylized images. StyTips provides controllable style transfer with diverse ways for users to manipulate styles in a fine-grained manner and to determine the strength of style, giving it more practical significance to real-world applications than traditional approaches. The code is available at https://github.com/I2-Multimedia-Lab/StyTips.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450483",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450483",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450483.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Editing and generation of visual media",
+      "Machine learning for visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2026.9450481",
+    "title": "User-oriented interactive style transfer",
+    "authors": [
+      {
+        "name": "Zheng Lin"
+      },
+      {
+        "name": "Zhao Zhang"
+      },
+      {
+        "name": "Kang-Rui Zhang"
+      },
+      {
+        "name": "Bo Ren"
+      },
+      {
+        "name": "Ming-Ming Cheng"
+      }
+    ],
+    "keywords": [
+      "user interaction",
+      "style transfer",
+      "image manipulation",
+      "content creation"
+    ],
+    "abstract": "Neural style transfer (NST) can create impressive artworks by transferring a reference style to a content image. Current image-to-image NST methods lack the fine-grained control often demanded for artistic editing. To mitigate this limitation, we propose a user-oriented interactive style transfer (IST) method, using which a harmonious image like drawing can be interactively created. Our IST method can serve as a brush, dipping style from anywhere, and then painting to any region of the target content image. To control the action scope, we formulate a fluid simulation algorithm, which takes styles as pigments around the position of brush interaction, and uses diffusion in style or content images according to similarity maps. By dipping and painting, even employing a single style image can produce thousands of eye-catching works. Our method expands the creative capabilities of NST.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450481",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2026.9450481",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2026.9450481.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Editing and generation of visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2026.9450480",
+    "title": "Object-aware appearance transfer for interior design",
+    "authors": [
+      {
+        "name": "Ruisi Ye"
+      },
+      {
+        "name": "Manyi Li"
+      },
+      {
+        "name": "Xifeng Gao"
+      },
+      {
+        "name": "Changhe Tu"
+      }
+    ],
+    "keywords": [
+      "image appearance transfer",
+      "customized image generation",
+      "interior design"
+    ],
+    "abstract": "Image appearance transfer plays a significant role in interior design by allowing designers to efficiently explore different design styles according to clients' preferences. Given as input an example image and a target scene, the goal is to efficiently produce scene images that exhibit the desired appearance while maintaining the harmonization of the entire scene. For interior designs composed of multiple objects, the key to object-aware appearance transfer is to prevent scrappy appearance features from being distributed all over the generated images. In this paper, we utilize a pre-trained vision–language model (VLM) and a text-to-image generative model to solve the object-aware appearance transfer task. Specifically, we propose a VLM-assisted align-and-complement strategy using scene graph representation to determine object appearance with comprehensive considerations in the target scene. In addition, when conducting multi-object appearance transfer, we propose a multiple contrastive loss to learn object-aware appearance features from single examples and to manipulate the compositional conditions to precisely control the transfer. We have constructed an evaluation dataset and performed comparative experiments to demonstrate the effectiveness of our method of object-aware appearance transfer for interior designs. Both qualitative and quantitative evaluations demonstrate that our method successfully transfers object appearances from an example image to target scenes without feature leakage, achieving superior visual effects to competing solutions.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450480",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2026.9450480",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2026.9450480.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Editing and generation of visual media",
+      "Realistic rendering"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2026.9450479",
+    "title": "Multi-level dynamic style transfer for NeRFs",
+    "authors": [
+      {
+        "name": "Zesheng Li"
+      },
+      {
+        "name": "Shuaibo Li"
+      },
+      {
+        "name": "Wei Ma"
+      },
+      {
+        "name": "Jianwei Guo"
+      },
+      {
+        "name": "Hongbin Zha"
+      }
+    ],
+    "keywords": [
+      "style transfer",
+      "neural radiance field (NeRF)",
+      "3D",
+      "multi-level features"
+    ],
+    "abstract": "As the application of neural radiance fields (NeRFs) in various 3D vision tasks continues to expand, numerous NeRF-based style transfer techniques have been developed. However, existing methods typically integrate style statistics into the original NeRF pipeline, often leading to suboptimal results in both content preservation and artistic stylization. In this paper, we present multi-level dynamic style transfer for NeRFs (MDS-NeRF), a novel approach that reengineers the NeRF pipeline specifically for stylization and incorporates an innovative dynamic style injection module. Particularly, we propose a multi-level feature adaptor that helps generate a multi-level feature grid representation from the content radiance field, effectively capturing the multi-scale spatial structure of the scene. In addition, we present a dynamic style injection module that learns to extract relevant style features and adaptively integrates them into the content patterns. The stylized multi-level features are then transformed into the final stylized view through our proposed multi-level cascade decoder. Furthermore, we extend our 3D style transfer method to support omni-view style transfer using 3D style references. Extensive experiments demonstrate that MDS-NeRF achieves outstanding performance for 3D style transfer, preserving multi-scale spatial structures while effectively transferring stylistic characteristics.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450479",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2026.9450479",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2026.9450479.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Editing and generation of visual media",
+      "Realistic rendering"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450476",
+    "title": "A benchmark for 3D mesh denoising",
+    "authors": [
+      {
+        "name": "Xuequan Lu"
+      },
+      {
+        "name": "Jinxi Wang"
+      },
+      {
+        "name": "Yaguang Jia"
+      },
+      {
+        "name": "Jin Huang"
+      },
+      {
+        "name": "Meili Wang"
+      }
+    ],
+    "keywords": [
+      "mesh denoising",
+      "benchmark",
+      "parameter setting",
+      "Bayesian optimization"
+    ],
+    "abstract": "Mesh denoising algorithms explore recovering smooth surfaces from 3D meshes that are corrupted with noise. They aim to remove noise while maintaining geometric features. Although existing mesh denoising methods have shown promising results, they typically involve many parameters and settings that can be complex to non-experts. Also, parameter tuning is usually manual and realized through trial and error. To address this, we propose a new fairer benchmark for mesh denoising algorithms. This benchmark consolidates existing algorithms into a single platform, organizes various noisy mesh data, and provides optimal parameter settings for different algorithms. Specifically, we propose a more effective and scientific method for setting parameters by utilizing Bayesian optimization to find optimal parameters. We use the upper confidence bound strategy to balance exploration and exploitation needs. We conduct extensive experiments to compare existing mesh denoising algorithms quantitatively and qualitatively. These experiments show that there does not exist a single method that is optimal for all shapes and noise types. Additionally, we provide all the optimal parameter settings of the state-of-the-art methods that are available to the community.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450476",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450476",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450476.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Geometric computing for images and video"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450473",
+    "title": "PartHOI: Part-based hand–object interaction transfer via generalized cylinders",
+    "authors": [
+      {
+        "name": "Qiaochu Wang"
+      },
+      {
+        "name": "Chufeng Xiao"
+      },
+      {
+        "name": "Manfred Lau"
+      },
+      {
+        "name": "Hongbo Fu"
+      }
+    ],
+    "keywords": [
+      "geometry",
+      "object modeling",
+      "hand pose synthesis",
+      "hand–object interaction (HOI)",
+      "pose transfer"
+    ],
+    "abstract": "Learning-based methods to understand and model hand–object interactions (HOI) require a large amount of high-quality HOI data. One way to create HOI data is to transfer hand poses from a source object to another based on the objects' geometry. However, current methods for transferring hand poses between objects rely on shape matching, limiting the ability to transfer poses across different categories due to differences in their shapes and sizes. We observe that HOI often involves specific semantic parts of objects, which often have more consistent shapes across categories. Furthermore, constructing size-invariant correspondences between these parts is important for cross-category transfer. Based on these insights, we introduce a novel method, PartHOI, for part-based HOI transfer. Using a generalized cylinder representation to parameterize geometry of object parts, PartHOI establishes a robust geometric correspondence between object parts, and enables the transfer of contact points. Given the transferred points, we optimize a hand pose to fit the target object. Qualitative and quantitative results demonstrate that our method can generalize HOI transfers well even across categories of objects, and produce high-fidelity results that are superior to those of existing methods.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450473",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450473",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450473.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Embodied AI",
+      "Understanding of visual media"
+    ]
+  },
+  {
+    "doi": "10.26599/CVM.2025.9450467",
+    "title": "Multi-task geometric estimation of depth and surface normal from monocular 360° images",
+    "authors": [
+      {
+        "name": "Kun Huang"
+      },
+      {
+        "name": "Fang-Lue Zhang"
+      },
+      {
+        "name": "Fangfang Zhang"
+      },
+      {
+        "name": "Yu-Kun Lai"
+      },
+      {
+        "name": "Paul L. Rosin"
+      },
+      {
+        "name": "Neil A. Dodgson"
+      }
+    ],
+    "keywords": [
+      "360° images",
+      "depth estimation",
+      "surface normal estimation",
+      "multi-task learning (MTL)"
+    ],
+    "abstract": "Geometric estimation is required for scene understanding and analysis of panoramic 360° images. Current methods usually predict a single feature, such as depth or surface normal. These methods can lack robustness, especially when dealing with intricate textures or complex object surfaces. We introduce a novel multi-task learning (MTL) network that simultaneously estimates depth and surface normals from 360° images. Our first innovation is our MTL architecture, which enhances predictions for both tasks by integrating geometric information from depth and surface normal estimation, enabling a deeper understanding of 3D scene structure. Another innovation is our fusion module, which bridges the two tasks, allowing the network to learn shared representations that improve accuracy and robustness. Experimental results demonstrate that our MTL architecture significantly outperforms state-of-the-art methods in both depth and surface normal estimation, showing superior performance for complex and diverse scenes. Our model's effectiveness and generalizability, particularly in handling intricate surface textures, establish it as a new benchmark for 360° image geometric estimation. The code and model are available at https://github.com/huangkun101230/360MTLGeometricEstimation.",
+    "volume": "12",
+    "issue": "5",
+    "firstpage": "9450467",
+    "year": "2026",
+    "publication_date": "14 October 2026",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450467",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CVM.2025.9450467.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2096-0433",
+    "research_area": [
+      "Geometric computing for images and video",
+      "Machine learning for visual media"
+    ]
+  },
+  {
     "doi": "10.26599/CVM.2026.9450572",
     "title": "DU-Net: Dual-level uncertainty-aware few-shot medical image segmentation via evidential deep learning",
     "authors": [
