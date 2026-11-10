@@ -842,7 +842,7 @@
       }
     ],
     "affiliations": [
-      "College of Information Engineering,Zhejiang,CHINA. Hangzhou Vocational &amp; Technical College,Hangzhou,Zhejiang,CHINA.",
+      "College of Information Engineering,Zhejiang,CHINA. Hangzhou Vocational & Technical College,Hangzhou,Zhejiang,CHINA.",
       "School of Computer Science and Engineering, Beihang University",
       "School of Computer Science and Engineering, Beihang University",
       "Department of Computer Science,UNITED KINGDOM. University of Durham,UNITED KINGDOM.",
@@ -1109,10 +1109,10 @@
       }
     ],
     "affiliations": [
-      "State Key Laboratory of Virtual Reality Technology &amp; Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
-      "State Key Laboratory of Virtual Reality Technology &amp; Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
-      "State Key Laboratory of Virtual Reality Technology &amp; Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
-      "Zhongguancun Laboratory,Beijing,CHINA. State Key Laboratory of Virtual Reality Technology &amp; Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA."
+      "State Key Laboratory of Virtual Reality Technology & Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
+      "State Key Laboratory of Virtual Reality Technology & Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
+      "State Key Laboratory of Virtual Reality Technology & Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
+      "Zhongguancun Laboratory,Beijing,CHINA. State Key Laboratory of Virtual Reality Technology & Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA."
     ],
     "keywords": [
       "inverse rendering",
@@ -1885,7 +1885,7 @@
       "Department of Computer Science and Technology,CHINA. Tsinghua University, 100084,CHINA.",
       "School of Artificial Intelligence,CHINA. Beijing Normal University, 100875,CHINA.",
       "School of Architecture,CHINA. Tsinghua University, 100084,CHINA.",
-      "Academy of Arts &amp; Design,CHINA. Tsinghua University, 100084,CHINA.",
+      "Academy of Arts & Design,CHINA. Tsinghua University, 100084,CHINA.",
       "Department of Computer Science,University of Bath, BA2 7AY",
       "School of Architecture,CHINA. Tsinghua University, 100084,CHINA.",
       "Beijing National Research Center for Information Science and Technology (BNRist), Tsinghua University,CHINA. Department of Computer Science and Technology,CHINA. Tsinghua University, 100084,CHINA."
@@ -1923,7 +1923,7 @@
   },
   {
     "doi": "10.26599/CVM.2025.9450457",
-    "title": "&lt;i&gt;GTLayout&lt;/i&gt;: Learning general trees for structured grid layout generation",
+    "title": "GTLayout: Learning general trees for structured grid layout generation",
     "authors": [
       {
         "name": "Pengfei Xu"
@@ -2052,10 +2052,10 @@
       }
     ],
     "affiliations": [
-      "School of Electronic Science &amp; Engineering,CHINA. Nanjing University, 210093,CHINA.",
-      "School of Electronic Science &amp; Engineering,CHINA. Nanjing University, 210093,CHINA.",
-      "School of Electronic Science &amp; Engineering,CHINA. Nanjing University, 210093,CHINA.",
-      "School of Electronic Science &amp; Engineering,CHINA. Nanjing University, 210093,CHINA."
+      "School of Electronic Science & Engineering,CHINA. Nanjing University, 210093,CHINA.",
+      "School of Electronic Science & Engineering,CHINA. Nanjing University, 210093,CHINA.",
+      "School of Electronic Science & Engineering,CHINA. Nanjing University, 210093,CHINA.",
+      "School of Electronic Science & Engineering,CHINA. Nanjing University, 210093,CHINA."
     ],
     "keywords": [
       "computer vision",
@@ -3253,7 +3253,7 @@
       "attention",
       "segmentation"
     ],
-    "abstract": "Referring image segmentation aims to segment the referent with natural linguistic expressions. Due to the distinct modality properties of the image and language, it is challenging to effectively align token embeddings with visual regions. Different from existing methods of coordinate linguistics for the specific visual region, we propose a novel referring image segmentation paradigm, language interprets vision (LIV), which densely fine-grained aligns the visual and linguistic modalities, and fuse the multi-modal biases effectively. LIV resorts to re-encoding visual features on compositional dimensions of &lt;Height, Width, Channel&gt;, which interprets vision through linguistic expression and makes cross-modality alignment denser. More specifically, we innovatively consider the adjacency of visual regions on the channel level to promote channel semantic consistency and propagate fine-grained semantics in the whole segmentation procedure. In addition, we also theoretically analyze that LIV effectively enriches the representation space and makes the comprehensive modality-fused biases more generalized, which boosts the precision of mask prediction. Extensive experimental results on three benchmarks validate that our proposed framework significantly outperforms other methods by a remarkable margin.",
+    "abstract": "Referring image segmentation aims to segment the referent with natural linguistic expressions. Due to the distinct modality properties of the image and language, it is challenging to effectively align token embeddings with visual regions. Different from existing methods of coordinate linguistics for the specific visual region, we propose a novel referring image segmentation paradigm, language interprets vision (LIV), which densely fine-grained aligns the visual and linguistic modalities, and fuse the multi-modal biases effectively. LIV resorts to re-encoding visual features on compositional dimensions of <Height, Width, Channel>, which interprets vision through linguistic expression and makes cross-modality alignment denser. More specifically, we innovatively consider the adjacency of visual regions on the channel level to promote channel semantic consistency and propagate fine-grained semantics in the whole segmentation procedure. In addition, we also theoretically analyze that LIV effectively enriches the representation space and makes the comprehensive modality-fused biases more generalized, which boosts the precision of mask prediction. Extensive experimental results on three benchmarks validate that our proposed framework significantly outperforms other methods by a remarkable margin.",
     "volume": 12,
     "issue": 1,
     "firstpage": "189",
@@ -3279,7 +3279,7 @@
   },
   {
     "doi": "10.26599/CVM.2025.9450456",
-    "title": "&lt;i&gt;Sketchformer&lt;/i&gt;++: A hierarchical transformer architecture for vector sketch representation",
+    "title": "Sketchformer++: A hierarchical transformer architecture for vector sketch representation",
     "authors": [
       {
         "name": "Pengfei Xu"
@@ -3297,7 +3297,7 @@
     "affiliations": [
       "College of Computer Science and Software Engineering,CHINA. Shenzhen University, 518060,CHINA.",
       "College of Computer Science and Software Engineering,CHINA. Shenzhen University, 518060,CHINA.",
-      "State Key Lab of CAD &amp; CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD & CG,CHINA. Zhejiang University, 310058,CHINA.",
       "College of Computer Science and Software Engineering,CHINA. Shenzhen University, 518060,CHINA."
     ],
     "keywords": [
@@ -3574,10 +3574,10 @@
       }
     ],
     "affiliations": [
-      "State Key Laboratory of Virtual Reality Technology &amp; Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA. School of Computer Science and Engineering,CHINA. Shandong University of Science and Technology, 266590,CHINA.",
-      "State Key Laboratory of Virtual Reality Technology &amp; Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
+      "State Key Laboratory of Virtual Reality Technology & Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA. School of Computer Science and Engineering,CHINA. Shandong University of Science and Technology, 266590,CHINA.",
+      "State Key Laboratory of Virtual Reality Technology & Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA.",
       "School of Computer Science and Engineering,CHINA. Shandong University of Science and Technology, 266590,CHINA.",
-      "State Key Laboratory of Virtual Reality Technology &amp; Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA. Virtual Reality Research Institute,Shandong,CHINA. Beihang University Qingdao Research Institute,Qingdao,Shandong,CHINA.",
+      "State Key Laboratory of Virtual Reality Technology & Systems,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA. Virtual Reality Research Institute,Shandong,CHINA. Beihang University Qingdao Research Institute,Qingdao,Shandong,CHINA.",
       "School of Computer Science and Engineering,CHINA. Shandong University of Science and Technology, 266590,CHINA."
     ],
     "keywords": [
@@ -3802,9 +3802,9 @@
       }
     ],
     "affiliations": [
-      "Augmented Cognition Lab,Department of Electrical &amp; Computer Engineering,Northeastern University",
-      "Augmented Cognition Lab,Department of Electrical &amp; Computer Engineering,Northeastern University,Roux Institute,Northeastern University",
-      "Augmented Cognition Lab,Department of Electrical &amp; Computer Engineering,Northeastern University"
+      "Augmented Cognition Lab,Department of Electrical & Computer Engineering,Northeastern University",
+      "Augmented Cognition Lab,Department of Electrical & Computer Engineering,Northeastern University,Roux Institute,Northeastern University",
+      "Augmented Cognition Lab,Department of Electrical & Computer Engineering,Northeastern University"
     ],
     "keywords": [],
     "abstract": "",
@@ -3966,14 +3966,14 @@
       }
     ],
     "affiliations": [
-      "Department of Computer Science,CANADA. Memorial University of Newfoundland,CANADA. Key Laboratory of Intelligent Informatics of Safety &amp; Emergency of Zhejiang Province,CHINA. Wenzhou University,CHINA.",
+      "Department of Computer Science,CANADA. Memorial University of Newfoundland,CANADA. Key Laboratory of Intelligent Informatics of Safety & Emergency of Zhejiang Province,CHINA. Wenzhou University,CHINA.",
       "Department of Computer Science,CANADA. Memorial University of Newfoundland,CANADA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "Department of Computer Science,University of Bath, BA2 7AY",
       "School of Computer Science,CANADA. University of Guelph,CANADA.",
-      "Department of Computer Science,CANADA. Memorial University of Newfoundland,CANADA. Key Laboratory of Intelligent Informatics of Safety &amp; Emergency of Zhejiang Province,CHINA. Wenzhou University,CHINA.",
+      "Department of Computer Science,CANADA. Memorial University of Newfoundland,CANADA. Key Laboratory of Intelligent Informatics of Safety & Emergency of Zhejiang Province,CHINA. Wenzhou University,CHINA.",
       "Department of Computer Science and Technology,CHINA. Nanjing University, 210093,CHINA.",
-      "Key Laboratory of Intelligent Informatics of Safety &amp; Emergency of Zhejiang Province,CHINA. Wenzhou University,CHINA."
+      "Key Laboratory of Intelligent Informatics of Safety & Emergency of Zhejiang Province,CHINA. Wenzhou University,CHINA."
     ],
     "keywords": [
       "image inpainting",
@@ -4020,7 +4020,7 @@
     ],
     "affiliations": [
       "Institute of Medical Technology,CHINA. Peking University Health Science Center, 100191,CHINA.",
-      "Peking University People&#39;s Hospital,Beijing,CHINA.",
+      "Peking University People's Hospital,Beijing,CHINA.",
       "Visualization Research Center (VISUS),GERMANY. University of Stuttgart, 70569,GERMANY."
     ],
     "keywords": [
@@ -4088,15 +4088,15 @@
       }
     ],
     "affiliations": [
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "Laboratory of Art and Archaeology Image,CHINA. Zhejiang University, 310058,CHINA. School of Art and Archaeology,CHINA. Zhejiang University, 310058,CHINA.",
       "School of Advanced Technology,CHINA. Xi’an Jiaotong–Liverpool University,CHINA.",
       "Laboratory of Art and Archaeology Image,CHINA. Zhejiang University, 310058,CHINA. School of Art and Archaeology,CHINA. Zhejiang University, 310058,CHINA.",
       "Laboratory of Art and Archaeology Image,CHINA. Zhejiang University, 310058,CHINA. School of Art and Archaeology,CHINA. Zhejiang University, 310058,CHINA.",
       "Laboratory of Art and Archaeology Image,CHINA. Zhejiang University, 310058,CHINA. School of Art and Archaeology,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "fragment restoration",
@@ -4387,9 +4387,9 @@
       }
     ],
     "affiliations": [
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA. Hangzhou Research Institute of AI and Holographic Technology,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA. Hangzhou Research Institute of AI and Holographic Technology,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA. Hangzhou Research Institute of AI and Holographic Technology,CHINA."
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA. Hangzhou Research Institute of AI and Holographic Technology,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA. Hangzhou Research Institute of AI and Holographic Technology,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA. Hangzhou Research Institute of AI and Holographic Technology,CHINA."
     ],
     "keywords": [
       "3D reconstruction",
@@ -4738,14 +4738,14 @@
       }
     ],
     "affiliations": [
-      "University of Chinese Academy of Sciences, 100049,CHINA. Xi&#39;an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA. School of Mathematics and Statistics,CHINA. Xi’an Jiaotong University, 710049,CHINA.",
+      "University of Chinese Academy of Sciences, 100049,CHINA. Xi'an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA. School of Mathematics and Statistics,CHINA. Xi’an Jiaotong University, 710049,CHINA.",
       "School of Mathematics and Statistics,CHINA. Xi’an Jiaotong University, 710049,CHINA.",
-      "Xi&#39;an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
+      "Xi'an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
       "Faculty of Electronic and Information Engineering,CHINA. Xi’an Jiaotong University, 710049,CHINA.",
-      "Xi&#39;an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
-      "Xi&#39;an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
-      "Xi&#39;an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
-      "Xi&#39;an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
+      "Xi'an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
+      "Xi'an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
+      "Xi'an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
+      "Xi'an Institute of Optics and Precision Mechanics,CHINA. Chinese Academy of Sciences, 100101,CHINA.",
       "School of Mathematics and Statistics,CHINA. Xi’an Jiaotong University, 710049,CHINA."
     ],
     "keywords": [
@@ -5572,13 +5572,13 @@
       }
     ],
     "affiliations": [
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "texture reconstruction",
@@ -5714,13 +5714,13 @@
       }
     ],
     "affiliations": [
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "Pico,CHINA. ByteDance Inc.,CHINA.",
       "School of Media Engineering,Zhejiang,CHINA. Communication University of Zhejiang,Hangzhou,Zhejiang,CHINA.",
       "Pico,CHINA. ByteDance Inc.,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "3D asset creation",
@@ -6261,11 +6261,11 @@
       }
     ],
     "affiliations": [
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "Lambda, Inc.,UNITED STATES.",
       "Department of Computer Science,University of Bath, BA2 7AY",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Laboratory of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Laboratory of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "emotion amplification",
@@ -6517,7 +6517,7 @@
       "Department of Computer Science, The University of Hong Kong",
       "Department of Computer Science, The University of Hong Kong",
       "Department of Computer Science, The University of Hong Kong",
-      "Department of Computer Science &amp; Engineering,Texas A &amp; M University"
+      "Department of Computer Science & Engineering,Texas A & M University"
     ],
     "keywords": [
       "camera pose refinement",
@@ -7135,12 +7135,12 @@
       }
     ],
     "affiliations": [
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "Adobe Research",
-      "School of Mathematics and Computer Science,CHINA. Zhejiang A&amp;F University,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA. Zhejiang Laboratory,Hangzhou,Zhejiang,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "School of Mathematics and Computer Science,CHINA. Zhejiang A&F University,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA. Zhejiang Laboratory,Hangzhou,Zhejiang,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "skin model",
@@ -7608,10 +7608,10 @@
       }
     ],
     "affiliations": [
-      "College of Computer Science and Technology,CHINA. Hangzhou Dianzi University, 310018,CHINA. State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA. College of Computer Science,SWITZERLAND. ETH Zürich (Swiss Federal Institute of Technology in Zürich),SWITZERLAND.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "College of Computer Science and Technology,CHINA. Hangzhou Dianzi University, 310018,CHINA. State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA. College of Computer Science,SWITZERLAND. ETH Zürich (Swiss Federal Institute of Technology in Zürich),SWITZERLAND.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "transparent object",
@@ -8394,7 +8394,7 @@
   },
   {
     "doi": "10.1007/s41095-023-0351-7",
-    "title": "&lt;i&gt;TrafPS&lt;/i&gt;: A shapley-based visual analytics approach to interpret traffic",
+    "title": "TrafPS: A shapley-based visual analytics approach to interpret traffic",
     "authors": [
       {
         "name": "Zezheng Feng"
@@ -8463,7 +8463,7 @@
   },
   {
     "doi": "10.1007/s41095-023-0392-y",
-    "title": "&lt;i&gt;HoLens&lt;/i&gt;: A visual analytics design for higher-order movement modeling and visualization",
+    "title": "HoLens: A visual analytics design for higher-order movement modeling and visualization",
     "authors": [
       {
         "name": "Zezheng Feng"
@@ -9155,11 +9155,11 @@
       }
     ],
     "affiliations": [
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "College of Transport and Communications,CHINA. Shanghai Maritime University, 201306,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "gradient-domain rendering",
@@ -9400,7 +9400,7 @@
       "College of Computer Science and Technology,CHINA. Zhejiang University, 310058,CHINA.",
       "College of Computer Science and Technology,CHINA. Zhejiang University, 310058,CHINA.",
       "National University of Singapore, 119077,SINGAPORE.",
-      "Speech &amp; Audio Team,SINGAPORE. Bytedance AI Lab,SINGAPORE.",
+      "Speech & Audio Team,SINGAPORE. Bytedance AI Lab,SINGAPORE.",
       "Department of Film and TV Technology,Beijing,CHINA. Beijing Film Academy,Beijing,CHINA."
     ],
     "keywords": [
@@ -10226,7 +10226,7 @@
     ],
     "keywords": [
       "quasi-regular patterns (QRP)",
-      "&lt;i&gt;k&lt;/i&gt;-uniform tilings",
+      "k-uniform tilings",
       "invariant mappings",
       "symmetry",
       "aesthetic patterns"
@@ -10679,10 +10679,10 @@
       }
     ],
     "affiliations": [
-      "College of Computer Science &amp; Software Engineering,CHINA. Shenzhen University, 518000,CHINA.",
+      "College of Computer Science & Software Engineering,CHINA. Shenzhen University, 518000,CHINA.",
       "School of Computer Science,CANADA. Carleton University,CANADA.",
-      "College of Computer Science &amp; Software Engineering,CHINA. Shenzhen University, 518000,CHINA.",
-      "College of Computer Science &amp; Software Engineering,CHINA. Shenzhen University, 518000,CHINA."
+      "College of Computer Science & Software Engineering,CHINA. Shenzhen University, 518000,CHINA.",
+      "College of Computer Science & Software Engineering,CHINA. Shenzhen University, 518000,CHINA."
     ],
     "keywords": [
       "semantic segmentation",
@@ -10852,9 +10852,9 @@
     "affiliations": [
       "University of Chinese Academy of Sciences, 100049,CHINA. Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences,Shenzhen,Guangdong,CHINA.",
       "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences,Shenzhen,Guangdong,CHINA.",
-      "Department of Electrical &amp; Computer Engineering,SINGAPORE. Nanyang Technological University, 639798,SINGAPORE.",
+      "Department of Electrical & Computer Engineering,SINGAPORE. Nanyang Technological University, 639798,SINGAPORE.",
       "Applied Research Center,Shenzhen,Guangdong,CHINA. Tencent PCG,Shenzhen,Guangdong,CHINA.",
-      "Department of Electrical &amp; Computer Engineering,SINGAPORE. Nanyang Technological University, 639798,SINGAPORE.",
+      "Department of Electrical & Computer Engineering,SINGAPORE. Nanyang Technological University, 639798,SINGAPORE.",
       "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences,Shenzhen,Guangdong,CHINA.",
       "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences,Shenzhen,Guangdong,CHINA."
     ],
@@ -11675,11 +11675,11 @@
       }
     ],
     "affiliations": [
-      "Hubei Key Laboratory of Medical Information Analysis and Tumor Diagnosis &amp; Treatment,Hubei,CHINA. College of Biomedical Engineering,Hubei,CHINA. South-Central Minzu University,Wuhan,Hubei,CHINA.",
+      "Hubei Key Laboratory of Medical Information Analysis and Tumor Diagnosis & Treatment,Hubei,CHINA. College of Biomedical Engineering,Hubei,CHINA. South-Central Minzu University,Wuhan,Hubei,CHINA.",
       "National Key Laboratory of Science and Technology of Multi-spectral Information Processing,CHINA. School of Artificial Intelligence and Automation,CHINA. Huazhong University of Science and Technology, 430074,CHINA.",
-      "Hubei Key Laboratory of Medical Information Analysis and Tumor Diagnosis &amp; Treatment,Hubei,CHINA. College of Biomedical Engineering,Hubei,CHINA. South-Central Minzu University,Wuhan,Hubei,CHINA.",
+      "Hubei Key Laboratory of Medical Information Analysis and Tumor Diagnosis & Treatment,Hubei,CHINA. College of Biomedical Engineering,Hubei,CHINA. South-Central Minzu University,Wuhan,Hubei,CHINA.",
       "National Key Laboratory of Science and Technology of Multi-spectral Information Processing,CHINA. School of Artificial Intelligence and Automation,CHINA. Huazhong University of Science and Technology, 430074,CHINA.",
-      "Hubei Key Laboratory of Medical Information Analysis and Tumor Diagnosis &amp; Treatment,Hubei,CHINA. College of Biomedical Engineering,Hubei,CHINA. South-Central Minzu University,Wuhan,Hubei,CHINA.",
+      "Hubei Key Laboratory of Medical Information Analysis and Tumor Diagnosis & Treatment,Hubei,CHINA. College of Biomedical Engineering,Hubei,CHINA. South-Central Minzu University,Wuhan,Hubei,CHINA.",
       "National Key Laboratory of Science and Technology of Multi-spectral Information Processing,CHINA. School of Artificial Intelligence and Automation,CHINA. Huazhong University of Science and Technology, 430074,CHINA."
     ],
     "keywords": [
@@ -11809,14 +11809,14 @@
       }
     ],
     "affiliations": [
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "Xmov,Shanghai,CHINA.",
       "School of Automation,CHINA. Southeast University, 210009,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "School of Automation,CHINA. Southeast University, 210009,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA.",
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA.",
       "Xmov,Shanghai,CHINA.",
-      "State Key Lab of CAD&amp;CG,CHINA. Zhejiang University, 310058,CHINA."
+      "State Key Lab of CAD&CG,CHINA. Zhejiang University, 310058,CHINA."
     ],
     "keywords": [
       "deep learning",
