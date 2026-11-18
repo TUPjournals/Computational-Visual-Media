@@ -813,7 +813,7 @@ function generateBibTeX(a) {
 /* ── Strip ── */
 /* Remove only known inline formatting tags; a generic /<[^>]+>/ would also
    delete real text such as "<Height, Width, Channel>" in decoded abstracts. */
-const FMT_TAG_RE = /<\/?(?:i|b|em|strong|sup|sub|span|small|mark|u|s|strike|tt|code|math|mi|mn|mo|mtext|msub|msup|mrow)[^>]*\/?>/gi;
+const FMT_TAG_RE = /<\/?(?:i|b|em|strong|sup|sub|span|small|mark|u|s|strike|tt|code|math|mi|mn|mo|mtext|msub|msup|mrow|inline-formula|display-formula|semantics|annotation|mfrac|msqrt|mroot|mstyle|mtable|mtr|mtd|munderover|munder|mover|mmultiscripts|msubsup|mspace|mphantom|menclose)\b[^>]*\/?>/gi;
 
 /* ── Escape ── */
 function esc(s) {
